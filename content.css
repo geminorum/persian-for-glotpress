@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Vazir;
+  src: url(https://rawcdn.githack.com/rastikerdar/vazir-font/v19.2.0/dist/Vazir.eot);
+  src:
+    url(https://rawcdn.githack.com/rastikerdar/vazir-font/v19.2.0/dist/Vazir.eot?#iefix) format("embedded-opentype"),
+    url(https://rawcdn.githack.com/rastikerdar/vazir-font/v19.2.0/dist/Vazir.woff) format("woff"),
+    url(https://rawcdn.githack.com/rastikerdar/vazir-font/v19.2.0/dist/Vazir.ttf) format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url(https://rawcdn.githack.com/rastikerdar/vazir-font/v19.2.0/dist/Vazir-Bold.eot);
+  src:
+    url(https://rawcdn.githack.com/rastikerdar/vazir-font/v19.2.0/dist/Vazir-Bold.eot?#iefix) format("embedded-opentype"),
+    url(https://rawcdn.githack.com/rastikerdar/vazir-font/v19.2.0/dist/Vazir-Bold.woff) format("woff"),
+    url(https://rawcdn.githack.com/rastikerdar/vazir-font/v19.2.0/dist/Vazir-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Vazir Code";
+  src: url(https://rawcdn.githack.com/rastikerdar/vazir-code-font/v1.1.1/dist/Vazir-Code.eot);
+  src:
+    url(https://rawcdn.githack.com/rastikerdar/vazir-code-font/v1.1.1/dist/Vazir-Code.eot?#iefix) format("embedded-opentype"),
+    url(https://rawcdn.githack.com/rastikerdar/vazir-code-font/v1.1.1/dist/Vazir-Code.woff) format("woff"),
+    url(https://rawcdn.githack.com/rastikerdar/vazir-code-font/v1.1.1/dist/Vazir-Code.ttf) format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
+.foreign-text,
+.gp-content textarea,
+.gp-content blockquote,
+.consistency-table .string.rtl {
+  font-family: Vazir, sans-serif !important;
+}
+
+.gp-content blockquote {
+  direction: rtl;
+}
+
+.editor .strings .textareas textarea {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+.pfgp-wrap-html {
+  float: right;
+}
+
+.pfgp-logo {
+  margin-left: 5px;
+}
+
+.pfgp-logo img {
+  width: 32px;
+  height: 32px;
+}
+
+.pfgp-trello img {
+  width: 80px;
+  height: 30px;
+  filter: invert(100%);
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+.-virastar-we-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.virastar-wrap-html {
+  position: relative;
+  /* display: inline-block; */
+  display: block;
+}
+
+.do-virastar-we {
+  position: absolute;
+  left: 4px;
+  top: 2px;
+  color: #82878c;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none !important;
+  border: none !important;
+}
+
+.do-virastar-we:focus {
+  outline: none;
+}
+
+.do-virastar-we:hover {
+  text-decoration: none;
+  color: #666;
+  opacity: 0.9;
+  transition: all 0.1s ease;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Persian for GlotPress",
+  "version": "0.0.2",
+  "homepage_url": "https://github.com/geminorum/persian-for-glotpress",
+  "manifest_version": 2,
+  "icons": {
+    "48": "wp-persian-48.png",
+    "64": "wp-persian-64.png",
+    "96": "wp-persian-96.png",
+    "128": "wp-persian-128.png"
+  },
+  "web_accessible_resources": [
+    "wp-persian.svg",
+    "trello.png"
+  ],
+  "description": "Translation Tools in Persian",
+  "permissions": [
+    "https://translate.wordpress.org/*"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "*://translate.wordpress.org/*"
+    ],
+    "css": [
+      "content.css"
+    ],
+    "js": [
+      "virastar.js",
+      "content.js"
+    ]
+  }],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
