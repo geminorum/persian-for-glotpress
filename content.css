@@ -31,6 +31,7 @@
   font-display: swap;
 }
 
+.translations-unique,
 .foreign-text,
 .gp-content textarea,
 .gp-content blockquote,
@@ -38,6 +39,7 @@
   font-family: Vazir, sans-serif !important;
 }
 
+.translations-unique,
 .gp-content blockquote {
   direction: rtl;
 }
@@ -45,6 +47,15 @@
 .editor .strings .textareas textarea {
   width: 100% !important;
   box-sizing: border-box;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+.translations-unique {
+  padding: 0 20px 0 0;
+}
+
+.consistency-table tr.new-translation > td {
+  text-align: center;
 }
 
 /* ////////////////////////////////////////////////////////////////////////// */
